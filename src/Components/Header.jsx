@@ -1,6 +1,6 @@
 
 import { Link, NavLink } from 'react-router-dom'
-
+import profpic from '../assets/profilepic.webp'
 const Header = () => {
     return (
         <div className='m-4'>
@@ -27,7 +27,7 @@ const Header = () => {
                 </div>  
                  <div className="flex items-center ">
                     <div className="hidden lg:block text-md custom-text font-bold mr-2">Mostafa Ahnaf Hossain</div>
-                    <img src="./src/assets/profilepic.webp" alt="Profile" className="w-10 h-10 cursor-pointer rounded-full border border-gray-300"/>
+                    <img src={profpic} alt="Profile" className="w-10 h-10 cursor-pointer rounded-full border border-gray-300"/>
                  </div> 
 
                
